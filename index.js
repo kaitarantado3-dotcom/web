@@ -10,12 +10,14 @@ app.use(cors()); // This pierces the "Silence" barrier by allowing cross-origin 
 
 // --- ARCHIVE CONFIGURATION ---
 const CONFIG = {
-    BOT_TOKEN: 'MTUwMjU3NTI0NTc5NjU3NzQ5MQ.GdBZSg.blVDCP2i6RfmKYLtZXdwaXjOoqFffgA0BFWtB0',
+    // This looks for a secret variable on Render called BOT_TOKEN
+    BOT_TOKEN: process.env.BOT_TOKEN, 
+    
     WEBHOOK_URL: 'https://discord.com/api/webhooks/1501995321868161094/JTt34mgQCr-kQYGkReOuKGf9rXFE2D_KfgdVzbwwsdWqqjyBIJZCtCylnpOUTUaifR7E',
     GUILD_ID: '1497683531055239309',
     VERIFIED_ROLE_ID: '1502575425401127023',
-    PORT: process.env.PORT || 3000,
-    BASE_URL: 'https://sativa.xo.je'  // Ensure NO slash at the end
+    PORT: process.env.PORT || 10000,
+    BASE_URL: 'https://sativa.xo.je' 
 };
 
 // --- THE SENTINEL BOT ---
