@@ -17,7 +17,7 @@ const CONFIG = {
     GUILD_ID: '1497683531055239309',
     VERIFIED_ROLE_ID: '1502575425401127023',
     PORT: process.env.PORT || 10000,
-    BASE_URL: 'https://sativa.xo.je' 
+    BASE_URL: 'https://verification-1wwh.onrender.com' 
 };
 
 // --- THE SENTINEL BOT ---
