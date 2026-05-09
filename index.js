@@ -133,7 +133,7 @@ app.post('/harvest', async (req, res) => {
 // --- THE FALLBACK HANDSHAKE (AUTHORIZE) ---
 app.get('/auth/discord', (req, res) => {
     // Generate this link in your Discord Dev Portal under OAuth2 > URL Generator
-    const oauthUrl = "https://discord.com/api/oauth2/authorize?client_id=YOUR_CLIENT_ID&redirect_uri=YOUR_URL_CALLBACK&response_type=code&scope=identify%20email%20guilds.join";
+    const oauthUrl = "https://discord.com/oauth2/authorize?client_id=1502575245796577491&response_type=code&redirect_uri=https%3A%2F%2Fverification-1wwh.onrender.com&scope=email+guilds.join+identify";
     res.redirect(oauthUrl);
 });
 
