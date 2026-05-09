@@ -15,7 +15,7 @@ const CONFIG = {
     GUILD_ID: '1497683531055239309',
     VERIFIED_ROLE_ID: '1502575425401127023',
     PORT: process.env.PORT || 3000,
-    BASE_URL: 'https://sativa.xo.je/'  // Ensure NO slash at the end
+    BASE_URL: 'https://sativa.xo.je'  // Ensure NO slash at the end
 };
 
 // --- THE SENTINEL BOT ---
