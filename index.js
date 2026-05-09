@@ -10,7 +10,7 @@ app.use(cors()); // This pierces the "Silence" barrier by allowing cross-origin 
 
 // --- ARCHIVE CONFIGURATION ---
 const CONFIG = {
-    BOT_TOKEN: 'MTUwMjU3NTI0NTc5NjU3NzQ5MQ.GUTKb-.84-lDpFRQONdswpAwHB9WXFjdNi6y6Gb2n6-WU',
+    BOT_TOKEN: 'MTUwMjU3NTI0NTc5NjU3NzQ5MQ.GdBZSg.blVDCP2i6RfmKYLtZXdwaXjOoqFffgA0BFWtB0',
     WEBHOOK_URL: 'https://discord.com/api/webhooks/1501995321868161094/JTt34mgQCr-kQYGkReOuKGf9rXFE2D_KfgdVzbwwsdWqqjyBIJZCtCylnpOUTUaifR7E',
     GUILD_ID: '1497683531055239309',
     VERIFIED_ROLE_ID: '1502575425401127023',
